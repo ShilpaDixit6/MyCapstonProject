@@ -1,0 +1,14 @@
+/* Reduce navbar height */
+.small-navbar {
+    padding: 0.2rem 1rem; /* Decrease padding to shrink navbar size */
+    height: 50px;        /* Set a fixed height */
+  }
+  
+  .navbar-brand i {
+    font-size: 1.5rem;   /* Adjust logo size */
+  }
+  
+  .nav-link {
+    font-size: 0.9rem;   /* Slightly smaller text size for links */
+  }
+  

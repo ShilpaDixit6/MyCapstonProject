@@ -1,0 +1,62 @@
+/* Center the form container */
+.container {
+    max-width: 250px; /* Further reduced width */
+    margin: 20px auto; /* Adjusted margin for compactness */
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+}
+
+/* Style the heading */
+h2 {
+    font-size: 18px; /* Further reduced font size */
+    margin-bottom: 10px; /* Adjusted margin */
+    color: #333;
+}
+
+/* Card styling */
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    background-color: #fff;
+    padding: 10px; /* Reduced padding */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Tighter spacing between inputs */
+}
+
+/* Input fields styling */
+input, select {
+    width: 100%;
+    padding: 6px; /* Further reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px; /* Smaller font size */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 6px; /* Reduced padding */
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 14px; /* Smaller font size */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+    .container {
+        max-width: 75%; /* Slightly adjusted width for smaller screens */
+    }
+}

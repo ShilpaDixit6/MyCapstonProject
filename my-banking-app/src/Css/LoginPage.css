@@ -1,0 +1,29 @@
+
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color: aqua; */
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  
+  button {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .alert {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  

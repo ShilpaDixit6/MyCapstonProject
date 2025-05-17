@@ -1,0 +1,13 @@
+.user-details-card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.user-details-card .card-body {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.user-details-card .card-body strong {
+    color: #007bff;
+}

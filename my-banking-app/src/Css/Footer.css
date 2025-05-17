@@ -1,0 +1,40 @@
+/* Footer.css */
+.footer {
+    background-color: #1f3552; /* Dark blue color */
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed; /* Change position to absolute */
+    bottom: 0;   
+    left: 0;       /* Anchor it to the bottom */
+    width: 100%;        /* Ensure it spans the full width */
+    z-index: 1000;      /* Ensure it stays above other elements */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #ffcc00; /* Yellow for contrast */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

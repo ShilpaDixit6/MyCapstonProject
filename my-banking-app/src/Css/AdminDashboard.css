@@ -1,0 +1,14 @@
+/* Custom navbar height */
+.small-navbar {
+    padding: 0.3rem 1rem; /* Reduce padding */
+    height: 50px;        /* Set a fixed height for the navbar */
+  }
+  
+  .navbar-brand i {
+    font-size: 1.5rem;   /* Adjust logo size */
+  }
+  
+  .nav-link {
+    font-size: 0.9rem;   /* Slightly smaller text size for links */
+  }
+  

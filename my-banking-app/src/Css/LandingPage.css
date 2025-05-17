@@ -1,0 +1,145 @@
+/* -------- Container for entire landing page -------- */
+.landing-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  margin: 0px; /* Adjust if navbar height changes */
+  padding-bottom: 0px; /* Adjust if footer height changes */
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* -------- Navbar Styling -------- */
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #1f3552 !important;
+  min-height: 60px; 
+  padding: 0.3rem 0.8rem; 
+}
+
+/* Small Navbar Adjustments */
+.small-navbar {
+  padding: 0.1rem 0.1rem; /* Decreased padding for compact look */
+  height: 50px;         /* Fixed small height */
+  display: flex;
+  align-items: center;  /* Ensures content vertically centers */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem; /* Adjusted for smaller navbar */
+  color: #c5c7ca;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #0056b3;
+}
+
+.nav-link {
+  font-size: 0.9rem; /* Reduced font size for compact navigation links */
+  color: #e8dfdf !important;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-size: 0.9rem;
+  padding: 5px 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* -------- Header Content -------- */
+.landing-header {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.landing-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.landing-header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Optional Buttons under header */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* -------- Footer Styling -------- */
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #001f47;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffc107;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* -------- Responsive -------- */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .d-flex {
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .landing-header h1 {
+    font-size: 2rem;
+  }
+
+  .landing-header p {
+    font-size: 1rem;
+  }
+}
